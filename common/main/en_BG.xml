@@ -1,54 +1,55 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
 <!-- Copyright © 1991-2025 Unicode, Inc.
 For terms of use, see http://www.unicode.org/copyright.html
 SPDX-License-Identifier: Unicode-3.0
-CLDR data files are interpreted according to the LDML specification (http://unicode.org/reports/tr35/)
+CLDR data files are interpreted according to the LDML specification
+(http://unicode.org/reports/tr35/)
 -->
 <ldml>
 	<identity>
-		<version number="$Revision$"/>
-		<language type="en"/>
-		<territory type="BG"/>
+		<version number="$Revision$" />
+		<language type="en" />
+		<territory type="BG" />
 	</identity>
-  		<calendars>
-			<calendar type="gregorian">
-        <dateFormats>
-					<dateFormatLength type="short">
-						<dateFormat>
-							<pattern>d.MM.y</pattern>
-							<datetimeSkeleton>yMMdd</datetimeSkeleton>
-						</dateFormat>
-					</dateFormatLength>
-				</dateFormats>
-				<timeFormats>
-					<timeFormatLength type="full">
-						<timeFormat>
-							<pattern>H:mm:ss zzzz</pattern>
-							<datetimeSkeleton>HHmmsszzzz</datetimeSkeleton>
-						</timeFormat>
-					</timeFormatLength>
-					<timeFormatLength type="long">
-						<timeFormat>
-							<pattern>H:mm:ss z</pattern>
-							<datetimeSkeleton>HHmmssz</datetimeSkeleton>
-						</timeFormat>
-					</timeFormatLength>
-					<timeFormatLength type="medium">
-						<timeFormat>
-							<pattern>H:mm:ss</pattern>
-							<datetimeSkeleton>HHmmss</datetimeSkeleton>
-						</timeFormat>
-					</timeFormatLength>
-					<timeFormatLength type="short">
-						<timeFormat>
-							<pattern>H:mm</pattern>
-							<datetimeSkeleton>HHmm</datetimeSkeleton>
-						</timeFormat>
-					</timeFormatLength>
-				</timeFormats>
-			</calendar>
-		</calendars>
+	<calendars>
+		<calendar type="gregorian">
+			<dateFormats>
+				<dateFormatLength type="short">
+					<dateFormat>
+						<pattern>d.MM.y</pattern>
+						<datetimeSkeleton>yMMdd</datetimeSkeleton>
+					</dateFormat>
+				</dateFormatLength>
+			</dateFormats>
+			<timeFormats>
+				<timeFormatLength type="full">
+					<timeFormat>
+						<pattern>H:mm:ss zzzz</pattern>
+						<datetimeSkeleton>HHmmsszzzz</datetimeSkeleton>
+					</timeFormat>
+				</timeFormatLength>
+				<timeFormatLength type="long">
+					<timeFormat>
+						<pattern>H:mm:ss z</pattern>
+						<datetimeSkeleton>HHmmssz</datetimeSkeleton>
+					</timeFormat>
+				</timeFormatLength>
+				<timeFormatLength type="medium">
+					<timeFormat>
+						<pattern>H:mm:ss</pattern>
+						<datetimeSkeleton>HHmmss</datetimeSkeleton>
+					</timeFormat>
+				</timeFormatLength>
+				<timeFormatLength type="short">
+					<timeFormat>
+						<pattern>H:mm</pattern>
+						<datetimeSkeleton>HHmm</datetimeSkeleton>
+					</timeFormat>
+				</timeFormatLength>
+			</timeFormats>
+		</calendar>
+	</calendars>
 	<numbers>
 		<symbols numberSystem="latn">
 			<decimal>,</decimal>
